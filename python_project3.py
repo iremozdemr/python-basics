@@ -20,7 +20,3 @@ print(number)
 
 number = int(3.9)
 print(number)
-
-print(True and True)
-print(True or False)
-print(not True)

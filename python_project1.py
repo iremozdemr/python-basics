@@ -104,3 +104,7 @@ len("a")
 #dizileri parametre olarak alır
 #intleri parametre olarak almaz
 #floatları parametre olarak almaz
+
+print(True and True)
+print(True or False)
+print(not True)
