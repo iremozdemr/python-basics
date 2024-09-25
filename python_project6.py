@@ -1,10 +1,25 @@
+def divide(a,b):
+    print(a/b)
+divide(10,5)
+
+def divide(a,b=1):
+    print(a/b)
+divide(5)
+
+def divide(a=1,b=1):
+    print(a/b)
+divide()
+
+
 def says_hello(name):
     print("hello " + name)
 
 print("please enter your name")
 name = input()
 says_hello(name)
-says_hello("deniz")
+
+name = "deniz"
+says_hello(name)
 
 
 def sum(number1,number2):
@@ -12,14 +27,16 @@ def sum(number1,number2):
 
 result = sum(3,5)
 print(result)
-
 
 def sum(number1,number2):
     answer = number1 + number2
     return answer
 
-result = sum(3,5)
-print(result)
+result1 = sum(3,5)
+print(result1)
+
+result2 = sum(number1=3,number2=5)
+print(result2)
 
 
 def greetings(first_name,last_name,use_auto_correction):
@@ -32,7 +49,6 @@ def greetings(first_name,last_name,use_auto_correction):
 
 greetings("irEm","ozdEmir",True)
 greetings("irEm","ozdEmir",False)
-
 
 def greetings(first_name,last_name,use_auto_correction = True):
     if use_auto_correction == True:
@@ -52,7 +68,6 @@ def change_number1():
 
 change_number1()
 print(number1)
-
 
 number2 = 11
 

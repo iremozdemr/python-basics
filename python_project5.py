@@ -4,7 +4,6 @@
 
 #to end the infinite loop press ctrl+c
 
-
 volcano_name = "eyjafjallaj"
 for i in volcano_name:
     print(i)

@@ -108,3 +108,8 @@ len("a")
 print(True and True)
 print(True or False)
 print(not True)
+
+print("a","b")
+#çıktı: a b
+print("a","b",sep="--")
+#çıktı: a--b
